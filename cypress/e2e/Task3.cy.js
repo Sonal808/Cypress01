@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 import AlertPage from '../e2e/pageObjects/AlertPage'
-describe('Automation Task1', () => {
-    it('passes', () => {
+describe('Automation Task3', () => {
+    it('Validate Alerts', () => {
       const alertpage = new AlertPage()
       cy.visit('https://the-internet.herokuapp.com/')
       alertpage.getalertlink().click()
