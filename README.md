@@ -4,7 +4,7 @@ Technical task – deployment guide
 a
 https://github.com/Sonal808/Cypress01/tree/master
 
-Also I have attached the zip folder if the repo download in not success full.
+Also I have attached the zip folder if the repo download is not success full.
 
 Before running the cypress test these are prerequisites.
 
