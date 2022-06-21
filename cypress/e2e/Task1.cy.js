@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 import CheckBox from '../e2e/pageObjects/CheckBox'
 describe('Automation Task1', () => {
-    it('passes', () => {
+    it('Validate Checkboxes', () => {
 
       const checkbox = new CheckBox()
       cy.visit('https://the-internet.herokuapp.com/')
