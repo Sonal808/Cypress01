@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
 import DropDownPage from '../e2e/pageObjects/DropDownPage'
-describe('Automation Task1', () => {
+describe('Automation Task2', () => {
   const dropdownpage = new DropDownPage()
-    it('passes', () => {
+    it('Validate DropDowns', () => {
       cy.visit('https://the-internet.herokuapp.com/')
       dropdownpage.getdropdownlink().click()
       cy.title().should('eq','The Internet')
