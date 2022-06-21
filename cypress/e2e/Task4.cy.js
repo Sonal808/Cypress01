@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 import HoverPage from '../e2e/pageObjects/HoverPage'
-describe('Automation Task1', () => {
-    it('passes', () => {
+describe('Automation Task4', () => {
+    it('Validate Mouse Hover', () => {
       const hoverpage = new HoverPage()
       cy.visit('https://the-internet.herokuapp.com/')
       hoverpage.gethoverlink().click()
